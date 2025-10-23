@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.postimg.cc/xyz1/dog-coat.png",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.postimg.cc/xyz2/paw-care.png",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Indoor Daycare (Warm Rooms)",
+    "providerName": "WarmNest Daycare",
+    "providerEmail": "contact@warmnest.com",
+    "price": 18,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Short-term indoor daycare to keep pets warm and socialized during winter.",
+    "image": "https://i.postimg.cc/xyz3/indoor-daycare.png",
+    "category": "Care"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Heated Pet Bed Rental",
+    "providerName": "ComfyPaws",
+    "providerEmail": "rentals@comfypaws.com",
+    "price": 12,
+    "rating": 4.6,
+    "slotsAvailable": 10,
+    "description": "Rent safe heated beds for cold nights — sanitized between uses.",
+    "image": "https://i.postimg.cc/xyz4/heated-bed.png",
+    "category": "Accessories"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Cold-Weather Nutrition Consult",
+    "providerName": "VetWise Nutrition",
+    "providerEmail": "diet@vetwise.com",
+    "price": 40,
+    "rating": 4.95,
+    "slotsAvailable": 2,
+    "description": "Tailored feeding plans to ensure pets keep energy and body heat.",
+    "image": "https://i.postimg.cc/xyz5/nutrition.png",
+    "category": "Health"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Reflective Winter Harness & Walk Safety",
+    "providerName": "SafeWalks",
+    "providerEmail": "safety@safewalks.com",
+    "price": 22,
+    "rating": 4.85,
+    "slotsAvailable": 5,
+    "description": "Harness fitting and safety tips for dark winter walks.",
+    "image": "https://i.postimg.cc/xyz6/harness.png",
+    "category": "Safety"
+  }
+]
