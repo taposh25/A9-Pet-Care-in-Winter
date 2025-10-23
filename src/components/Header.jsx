@@ -1,15 +1,16 @@
-// src/components/Header.jsx
+import { format } from "date-fns";
 import React from "react";
 
-const Header = () => {
+export default function Header() {
   return (
-    <div style={{background:"#1f2937", color:"#fff", padding:"6px 12px", fontSize:14}}>
-      <div style={{maxWidth:1200, margin:"0 auto", display:"flex", justifyContent:"space-between"}}>
-        <div>Pet Street 123 - New York</div>
-        <div>email@yoursite.com · (123) 456-789</div>
+    <div className=" font-semibold text-accent-400 text-sm py-2">
+      <div className="flex justify-between px-4">
+        <p>WarmPaws – Pet Care in Winter - Bangladesh</p>
+         <p className='font-semibold'>{format( new Date(), "EEEE, MMMM, MM, yyyy")}</p>
+        <p>taposhbarai03@gmail.com · (+880) 01516587170</p>
+       
+
       </div>
     </div>
   );
-};
-
-export default Header;
+}

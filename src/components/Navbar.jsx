@@ -2,8 +2,8 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../contexts/AuthProvider";
 import { Link, useNavigate } from "react-router-dom";
-// import { Link, useNavigate } from "react-router-dom";
-// import { AuthContext } from "../contexts/AuthProvider";
+import logo from '../assets/logo.png';
+
 
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav style={{background:"#fff", boxShadow:"0 2px 6px rgba(0,0,0,0.06)"}}>
       <div style={{maxWidth:1200, margin:"0 auto", display:"flex", alignItems:"center", justifyContent:"space-between", padding:"12px"}}>
         <div style={{display:"flex", alignItems:"center", gap:12}}>
-          <img src="/logo192.png" alt="logo" style={{width:48, height:48}} />
+          <img src={logo} alt="logo" style={{width:48, height:48}} />
           <div style={{fontWeight:700}}>WarmPaws</div>
         </div>
 
