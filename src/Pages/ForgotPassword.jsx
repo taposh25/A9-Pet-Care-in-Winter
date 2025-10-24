@@ -1,9 +1,8 @@
-// src/pages/ForgotPassword.jsx
+
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../contexts/AuthProvider";
 import toast from "react-hot-toast";
-// import { AuthContext } from "../contexts/AuthProvider";
-// import toast from "react-hot-toast";
+
 
 const ForgotPassword = () => {
   const { resetPassword } = useContext(AuthContext);
@@ -14,8 +13,7 @@ const ForgotPassword = () => {
     resetPassword(email)
       .then(() => {
         toast.success("Password reset email sent. Check your mail.");
-        // open Gmail (optional)
-        window.open("https://mail.google.com", "_blank");
+        // window.open("https://mail.google.com", "_blank");
       })
       .catch((err) => toast.error(err.message));
   };

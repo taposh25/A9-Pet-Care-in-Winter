@@ -1,8 +1,15 @@
 
+
+
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { AuthContext } from "../contexts/AuthProvider";
 import toast from "react-hot-toast";
+// import { useParams } from "react-router-dom";
+// import { AuthContext } from "../contexts/AuthProvider";
+// import toast from "react-hot-toast";
+
+
 
 const ServiceDetails = () => {
   const { id } = useParams();
@@ -22,28 +29,57 @@ const ServiceDetails = () => {
 
   const handleBook = (e) => {
     e.preventDefault();
-    // no backend: show toast + clear form
     toast.success("Service booked successfully!");
     setName("");
     setEmail("");
   };
 
-  if (!service) return <div style={{padding:40}}>Service not found.</div>;
+  if (!service) {
+    return <div className="text-center py-20 text-xl font-semibold">Service not found.</div>;
+  }
 
   return (
-    <div style={{maxWidth:900, margin:"20px auto"}}>
-      <h2>{service.serviceName}</h2>
-      <img src={service.image} alt={service.serviceName} style={{width:"100%", maxHeight:400, objectFit:"cover"}} />
-      <p>{service.description}</p>
-      <p>Price: ${service.price} · Rating: {service.rating}</p>
+    <div className="max-w-4xl mx-auto py-10 px-4">
+      <div className="card bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src={service.image}
+            alt={service.serviceName}
+            className="w-full max-h-[400px] object-cover"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="text-3xl font-semibold">{service.serviceName}</h2>
+          <p className="text-gray-600">{service.description}</p>
+          <div className="flex justify-between items-center mt-4">
+            <p className="text-xl font-bold">Price: ${service.price}</p>
+            <p className="text-md">⭐ {service.rating}</p>
+          </div>
 
-      <form onSubmit={handleBook} style={{marginTop:20, display:"grid", gap:10}}>
-        <input placeholder="Name" value={name} onChange={(e)=>setName(e.target.value)} required />
-        <input placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)} required />
-        <button type="submit">Book Now</button>
-      </form>
+          <form onSubmit={handleBook} className="mt-6 space-y-4">
+            <input
+              type="text"
+              placeholder="Name"
+              className="input input-bordered w-full"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              className="input input-bordered w-full"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+            <button className="btn btn-primary w-full mt-2">Book Now</button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };
 
 export default ServiceDetails;
+

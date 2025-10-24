@@ -51,7 +51,7 @@ const Home = () => {
               <img 
                 src={s.image} 
                 alt={s.serviceName} 
-                className="w-full h-50 object-cover rounded-lg"
+                className="w-full h-60 object-cover rounded-lg"
               />
 
               <h3 className="text-xl font-semibold mt-3">{s.serviceName}</h3>

@@ -37,6 +37,15 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+       {
+        path: "/home/:id",
+        element: (
+          <PrivateRoute>
+            <ServiceDetails />
+          </PrivateRoute>
+        ),
+      },
+
       {
         path: "checkout",
         element: (
