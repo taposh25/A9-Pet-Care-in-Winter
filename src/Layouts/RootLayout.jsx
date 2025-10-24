@@ -44,32 +44,33 @@ import Footer from "../components/Footer";
 
 export default function RootLayout() {
   return (
-    <div className="w-11/12 mx-auto py-4 bg-base-300 flex flex-col">
+    <div className="w-11/12 mx-auto py-4 bg-base-200 flex flex-col">
       
-      {/* HEADER */}
+      {/* header */}
       <header className="bg-base-200 shadow-sm ">
-        <div className="w-11/12 mx-auto py-4">
+        <div className="py-4">
           <Header></Header>
           <p className="text-center text-xs text-gray-500 mt-1">
             {import.meta.env.VITE_name}
           </p>
         </div>
-
+         
+         {/* navbar section */}
         <nav className="bg-base-200">
-          <div className="w-11/12 mx-auto">
+          <div className="">
             <Navbar></Navbar>
           </div>
         </nav>
       </header>
 
-      {/* MAIN CONTENT */}
-      <main className="w-11/12 mx-auto flex-1 py-6">
+      {/* main section */}
+      <main className=" flex-1 py-6 ">
         <Outlet></Outlet>
       </main>
 
-      {/* FOOTER */}
-      <footer className="bg-white border-t py-6 mt-8">
-        <div className="w-11/12 mx-auto">
+      {/* footer */}
+      <footer className="bg-base-200 py-6 mt-8">
+        <div className="py-2 ">
           <Footer></Footer>
         </div>
       </footer>
