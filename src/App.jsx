@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       { index: true, Component: Home },
       { path: "services", Component: Services },
       {
-        path: "services/:id",
+        path: "/services/:id",
         element: (
           <PrivateRoute>
             <ServiceDetails />
