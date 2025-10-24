@@ -70,5 +70,115 @@
     "description": "Harness fitting and safety tips for dark winter.",
     "image": "https://ca.canadapooch.com/cdn/shop/files/MaxChillCoolingVest_Purple_EnhancedPDP_1_329x.jpg?v=1753971827",
     "category": "Safety"
+  },
+
+  {
+ "serviceId": 7,
+ "serviceName": "Snow & Ice Boot Fitting Session",
+ "providerName": "AdventurePaws Gear",
+ "providerEmail": "boots@adventurepaws.com",
+ "price": 20,
+ "rating": 4.75,
+ "slotsAvailable": 7,
+ "description": "Expert sizing and fitting for protective snow boots to guard against salt and ice.",
+ "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG_f8-45711Z7C7LtaNt0DF7QoWRb0A7Fd7g&s",
+ "category": "Clothing"
+ },
+ {
+ "serviceId": 8,
+ "serviceName": "Therapeutic Warm Massage for Older Pets",
+ "providerName": "GentleHands Therapy",
+ "providerEmail": "massage@gentlehands.com",
+ "price": 45,
+ "rating": 4.9,
+ "slotsAvailable": 3,
+ "description": "A soothing, warm massage session focused on easing cold-weather joint stiffness.",
+ "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkqVsYFiuLeexGC0UWBZwIYygvNcevjPAbwQ&s",
+ "category": "Health" },
+ {
+ "serviceId": 9,
+ "serviceName": "Fireplace Photo Shoot (Winter Theme)",
+ "providerName": "FrostySnaps Photography",
+ "providerEmail": "photos@frostysnaps.com",
+ "price": 55,
+ "rating": 4.8,
+ "slotsAvailable": 2,
+ "description": "A professional photo session with cozy blankets and a warm, holiday-themed fireplace backdrop.",
+ "image": "https://media.istockphoto.com/id/1184219997/photo/winter-day-by-fireplace.jpg?s=612x612&w=0&k=20&c=HbTR5XwasqcVciWydlQUBgLHm98LkiuQSpXgGBMJr9Y=",
+"category": "Entertainment"
+},
+ {
+ "serviceId": 10,
+ "serviceName": "Heated Water Bowl Installation & Check-up",
+ "providerName": "PetTech Installers",
+ "providerEmail": "tech@pettech.com",
+ "price": 35,
+ "rating": 4.7,
+ "slotsAvailable": 5,
+ "description": "Installation of heated water bowls to prevent freezing outdoors, ensuring hydration.",
+ "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSeOMrCHSWWzuxwA6rXkCpRtIfZu9kW4wvA&s",
+ "category": "Accessories"
+ },
+ {
+    "serviceId": 11,
+    "serviceName": "De-Icing Salt Paw Balm Application",
+    "providerName": "UrbanPaws Care",
+    "providerEmail": "balm@urbanpawscare.com",
+    "price": 15,
+    "rating": 4.5,
+    "slotsAvailable": 8,
+    "description": "Protective balm application to shield paws from harsh de-icing chemicals and salt on city streets.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLha_hFDR3JOgVCR6cbdOwlLn_6Cmba9yXzg&s",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 12,
+    "serviceName": "Cold Air Scent Enrichment Playtime",
+    "providerName": "NoseWork Experts",
+    "providerEmail": "scent@noseworkexperts.com",
+    "price": 28,
+    "rating": 4.85,
+    "slotsAvailable": 4,
+    "description": "Indoor scent games designed to provide mental stimulation when outdoor activities are limited by the cold.",
+    "image": "https://www.woofforia.com/cdn/shop/files/Apple_Nosework_Toy_07.webp?v=1752409525&width=1080",
+    "category": "Entertainment"
+  },
+  {
+    "serviceId": 13,
+    "serviceName": "Holiday Travel Pet Sitting (Heated Home)",
+    "providerName": "Trusted Home Care",
+    "providerEmail": "travel@trustedhomecare.com",
+    "price": 60,
+    "rating": 4.98,
+    "slotsAvailable": 3,
+    "description": "In-home pet sitting services ensuring your pet remains safe and warm in a climate-controlled environment while you travel.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbge3FZuks8bNBK9KSXD2qqDKy_ZKx8SvvA&s",
+    "category": "Care"
+  },
+  {
+    "serviceId": 14,
+    "serviceName": "Custom Insulated Dog House Design",
+    "providerName": "CozyAbodes Builders",
+    "providerEmail": "design@cozyabodes.com",
+    "price": 150,
+    "rating": 4.65,
+    "slotsAvailable": 2,
+    "description": "Design and consultation for a custom, fully insulated outdoor dog house tailored for extreme cold.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3-WeEd-S8mo0cWylIgN83Kd8ZTEiwEZ0tPQ&s",
+    "category": "Accessories"
+  },
+  {
+    "serviceId": 15,
+    "serviceName": "Pet-Safe Ice Melt Supply & Delivery",
+    "providerName": "Winter Safety Solutions",
+    "providerEmail": "salt@wintersafety.com",
+    "price": 25,
+    "rating": 4.7,
+    "slotsAvailable": 10,
+    "description": "Delivery of non-toxic, paw-friendly ice-melting pellets to safely clear your walkways and driveways.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY8crbiJDzNkgh8FFkx3KQyVeownJB4ml_wg&s",
+    "category": "Safety"
   }
+
+  
 ]
