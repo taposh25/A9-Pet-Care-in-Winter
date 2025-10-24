@@ -4,15 +4,17 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "reac
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t mt-12 py-2">
-      <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className=" border-t mt-12 py-2 ">
+      <div className=" w-11/12 mx-auto py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
 
         
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-          <p className="text-gray-600">123 Industry St, New York, NY 10001</p>
-          <p className="text-gray-600">Email: info@yourcompany.com</p>
-          <p className="text-gray-600">Phone: +1 (123) 456-7890</p>
+        <div className="space-y-4">
+          <p className="text-gray-600">23 Industry BS, Dhaka, Mirpur-12, 1609</p>
+          <p className="text-gray-600">Email: taposhbarai03@gmail.com</p>
+          <p className="text-gray-600">Phone: (+880) 01516587170</p>
+        </div>
         </div>
 
   
