@@ -45,7 +45,7 @@ const Home = () => {
           {services.slice(0, 6).map(s => (
             <div 
               key={s.serviceId} 
-              className="border border-gray-200 rounded-xl p-4 hover:shadow-lg transition"
+              className=" flex flex-col justify-between border border-gray-200 rounded-xl p-4 hover:shadow-lg transition"
             >
               <img 
                 src={s.image} 
