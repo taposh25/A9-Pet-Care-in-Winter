@@ -1,13 +1,7 @@
-
-
-
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { AuthContext } from "../contexts/AuthProvider";
 import toast from "react-hot-toast";
-// import { useParams } from "react-router-dom";
-// import { AuthContext } from "../contexts/AuthProvider";
-// import toast from "react-hot-toast";
 
 
 

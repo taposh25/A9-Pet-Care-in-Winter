@@ -21,7 +21,7 @@ const Register = () => {
       })
       .then(() => {
         toast.success("Account created successfully!");
-        navigate("/"); // ✅ Register successful → homepage
+        navigate("/"); // 
       })
       .catch((err) => {
         setError(err.code);

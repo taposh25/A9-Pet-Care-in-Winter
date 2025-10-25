@@ -1,7 +1,4 @@
 
-
-
-
 import React, { useContext, useState }  from "react";
 import { AuthContext } from "../contexts/AuthProvider";
 import toast from "react-hot-toast";

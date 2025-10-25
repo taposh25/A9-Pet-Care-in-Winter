@@ -21,7 +21,7 @@ const Services = () => {
           
           <p className="text-sm">Rating: {service.rating}</p>
           <p className="font-semibold">${service.price}</p>
-          {/* <button className="btn btn-primary mt-3">View Details</button> */}
+         
              <Link to={`/services/${service.serviceId}`}>
                           <button className="mt-4 w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg transition">
                             View Details
