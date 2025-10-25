@@ -1,14 +1,3 @@
-// import { createBrowserRouter } from "react-router-dom";
-// import RootLayout from "./layouts/RootLayout";
-// import Home from "./pages/Home";
-// import Services from "./pages/Services";
-// import ServiceDetails from "./pages/ServiceDetails";
-// import Login from "./pages/Login";
-// import Register from "./pages/Register";
-// import Profile from "./pages/Profile";
-// import ForgotPassword from "./pages/ForgotPassword";
-// import Checkout from "./pages/Checkout";
-// import PrivateRoute from "./components/PrivateRoute";
 
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./Layouts/RootLayout";
