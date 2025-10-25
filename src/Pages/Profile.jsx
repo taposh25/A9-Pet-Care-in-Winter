@@ -16,7 +16,7 @@ const Profile = () => {
   const handleUpdate = (e) => {
     e.preventDefault();
     updateUserProfile({ displayName: name, photoURL: photo })
-      .then(() => toast.success("Profile updated successfully! 🥳"))
+      .then(() => toast.success("Profile updated successfully! "))
       .catch(err => toast.error(err.message));
   };
 
